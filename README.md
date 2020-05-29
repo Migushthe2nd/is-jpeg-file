@@ -16,7 +16,7 @@ $ npm install is-jpeg-file --save
 var JPEG_FILE = require('is-jpeg-file');
 
 // If a valid jpeg file is provided and exists at path specified
-JPEG_FILE.isJpeg('temp.sarc', function (err, is) {
+JPEG_FILE.isJpeg('temp.jpg', function (err, is) {
 	if (err) {
 		console.log('Error while checking if file is jpeg : ' + err);
 	} else {
@@ -26,7 +26,7 @@ JPEG_FILE.isJpeg('temp.sarc', function (err, is) {
 //=> Given file is jpeg : true
 
 // If a valid jpeg file is provided and exists at path specified
-JPEG_FILE.isJpegSync('temp.sarc');
+JPEG_FILE.isJpegSync('temp.jpg');
 //=> true
 ```
 
@@ -61,7 +61,7 @@ Callback has two parameters:
 var JPEG_FILE = require('is-jpeg-file');
 
 // If a valid jpeg file is provided and exists at path specified
-JPEG_FILE.isJpeg('temp.sarc', function (err, is) {
+JPEG_FILE.isJpeg('temp.jpg', function (err, is) {
 	if (err) {
 		console.log('Error while checking if file is jpeg : ' + err);
 	} else {
@@ -91,7 +91,7 @@ Boolean indicating if file at specified path is jpeg or not
 var JPEG_FILE = require('is-jpeg-file');
 
 // If a valid jpeg file is provided and exists at path specified
-JPEG_FILE.isJpegSync('temp.sarc');
+JPEG_FILE.isJpegSync('temp.jpg');
 //=> true
 ```
 
