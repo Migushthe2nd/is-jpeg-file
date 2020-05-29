@@ -1,0 +1,31 @@
+{
+  "name": "is-jpeg-file",
+  "version": "1.0.2",
+  "description": "Checks if the file path is a jpeg file. It does not read the complete file nor does it depend on the file extension.",
+  "license": "MIT",
+  "repository": "https://github.com/Migushthe2nd/is-jpeg-file.git",
+  "author": {
+    "name": "Migush"
+  },
+  "dependencies": {
+    "node-ratify": "~1.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "buffer",
+    "check",
+    "detect",
+    "detect jpeg",
+    "file type",
+    "is-jpeg-file",
+    "is jpeg",
+    "uint8array",
+    "jpeg",
+    "jpeg file"
+  ]
+}
